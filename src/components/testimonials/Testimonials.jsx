@@ -15,24 +15,28 @@ import "swiper/css/pagination";
 
 const data = [
   {
+    id:0,
     avatar: AVTR1,
     name: "Ahmet Melki",
     review:
       "I would highly recommend Mahmut Internet Marketing. he's are great to work with. The traffic to our website has increased.",
   },
   {
+    id:1,
     avatar: AVTR4,
     name: "Nader Aljarah",
     review:
       "I speak for the trolley district when I tell you how pleased we are with the web site you designed for us. The district needed a site that addressed varied aspects of our operation.",
   },
   {
+    id:2,
     avatar: AVTR1,
     name: "Enes Muselleti",
     review:
       "With Mahmut’s help, we were able to increase the functionality of our website dramatically while cutting our costs. Our website is much more easy to use, has tons of more features than before and is incredibly easy to maintain.",
   },
   {
+    id:3,
     avatar: AVTR4,
     name: "Ayham Shami",
     review:
@@ -43,7 +47,7 @@ function Testimonials() {
   return (
     <section id="testimonials">
       <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h2 >Testimonials</h2>
 
       <Swiper
         className="container testimonials__container"
@@ -52,9 +56,9 @@ function Testimonials() {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ id,avatar, name, review }, index) => {
           return (
-            <SwiperSlide className="testimonial">
+            <SwiperSlide key={id} className="testimonial">
               <div className="client__avatar">
                 <img src={avatar} alt="Avater one" />
               </div>

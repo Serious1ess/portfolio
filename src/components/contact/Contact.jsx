@@ -43,7 +43,7 @@ const Contact = () => {
               Send a Message
             </a>
           </article>
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>Phone</h4>
             <h5>+905539635338</h5>
@@ -53,7 +53,7 @@ const Contact = () => {
             >
               Send a Message
             </a>
-          </article>
+          </article> */}
         </div>
         {/* End Of Contact Option */}
         <form ref={form} onSubmit={sendEmail}>
