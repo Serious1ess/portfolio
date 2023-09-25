@@ -46,6 +46,13 @@ function experience() {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experiecne__details-icon" />
+              <div>
+                <h4>GIS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* End of FrontEnd */}
@@ -56,42 +63,29 @@ function experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experiecne__details-icon" />
               <div>
-                <h4>Node.js</h4>
+                <h4>AWS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experiecne__details-icon" />
               <div>
-                <h4>MongoDB</h4>
+                <h4>SQL</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experiecne__details-icon" />
               <div>
-                <h4>Express.js</h4>
+                <h4>PHP</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
+
             <article className="experience__details">
               <BsPatchCheckFill className="experiecne__details-icon" />
               <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experiecne__details-icon" />
-              <div>
-                <h4>Python</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experiecne__details-icon" />
-              <div>
-                <h4>REST.js API</h4>
+                <h4>Node js</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>

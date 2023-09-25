@@ -3,7 +3,7 @@ import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-import ME from "../../assets/about-me-img.jpg";
+import ME from "../../assets/me.png";
 function About() {
   return (
     <section id="about">
@@ -26,18 +26,18 @@ function About() {
             <article className="about__card">
               <FiUsers className="about__icons" />
               <h5>Clinets</h5>
-              <small>50+ WorldWide</small>
+              <small>40+ WorldWide</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icons" />
               <h5>Projects</h5>
-              <small>6+ Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
 
           <p>
-            Passionate junior front-end developer with a desire to learn and
-            grow in a collaborative team environment. Skilled in HTML, CSS, and
+            Passionate software developer with a desire to learn and grow in a
+            collaborative team environment. Skilled in HTML, CSS, and
             JavaScript. Excels at creating pixel-perfect designs and working
             with cross-browser compatibility issues
           </p>

@@ -23,6 +23,7 @@
   overflow: hidden;
   transform: rotate(-10deg);
   transition: var(--transition);
+  background-color: #8b8baec7;
 }
 
 .about__m-image:hover {

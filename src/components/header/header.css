@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  /* height: 100vh; */
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -24,9 +24,10 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
-  bottom: 3rem;
+  /* bottom: 3rem; */
   position: absolute;
   left: 0;
+  top: 56px;
 }
 
 .header__socials::after {
@@ -53,17 +54,18 @@ header {
 .scroll__down {
   position: absolute;
   right: -3.2rem;
-  bottom: 2rem;
+  /* bottom: 2rem; */
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+  top: 99px;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================*/
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 100hv;
+    /* height: 100hv; */
     margin-bottom: auto;
   }
 }
