@@ -36,7 +36,7 @@ function About() {
           </div>
 
           <p>
-            Passionate software developer with a desire to learn and grow in a
+            Passionate softwear developer with a desire to learn and grow in a
             collaborative team environment. Skilled in HTML, CSS, and
             JavaScript. Excels at creating pixel-perfect designs and working
             with cross-browser compatibility issues
