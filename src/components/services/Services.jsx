@@ -23,10 +23,7 @@ function Services() {
             </li>
             <li>
               <BsCheck className="service__list-icon" />
-              <p>User stories.
-
-
-</p>
+              <p>User stories.</p>
             </li>
             <li>
               <BsCheck className="service__list-icon" />
@@ -48,7 +45,7 @@ function Services() {
             <h3>Web Development</h3>
           </div>
           <ul className="service__list">
-          <li>
+            <li>
               <BsCheck className="service__list-icon" />
               <p>Drupal Web Development</p>
             </li>

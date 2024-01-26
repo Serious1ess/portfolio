@@ -4,35 +4,14 @@ import PROJECT1 from "../../assets/project1.png";
 import PROJECT2 from "../../assets/project2.png";
 import PROJECT3 from "../../assets/project3.png";
 import PROJECT4 from "../../assets/project4.png";
-import PROJECT5 from "../../assets/project5.png";
+import PROJECT6 from "../../assets/project6.png";
+import PROJECT7 from "../../assets/project7.png";
+import PROJECT8 from "../../assets/project8.png";
+import PROJECT9 from "../../assets/project9.png";
 
 const data = [
   {
     id: 1,
-    image: PROJECT1,
-    title: "OMNIFOOD",
-    dribbble:
-      "https://dribbble.com/shots/18319780-OMNIFOOD-Website-Design?utm_source=Clipboard_Shot&utm_campaign=Seriousless&utm_content=OMNIFOOD%20Website%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Seriousless&utm_content=OMNIFOOD%20Website%20Design&utm_medium=Social_Share",
-    demo: "https://singular-bonbon-c13d1a.netlify.app",
-  },
-  {
-    id: 2,
-    image: PROJECT2,
-    title: "NEXT GENERATION TECHNOLOGY",
-    dribbble:
-      "https://dribbble.com/shots/18319859-NEXT-GENERATION-TECHNOLOGY?new_shot_upload=true&utm_source=Clipboard_Shot&utm_campaign=Seriousless&utm_content=NEXT%20GENERATION%20TECHNOLOGY&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Seriousless&utm_content=NEXT%20GENERATION%20TECHNOLOGY&utm_medium=Social_Share",
-    demo: "https://eclectic-blini-5eb582.netlify.app",
-  },
-  {
-    id: 3,
-    image: PROJECT3,
-    title: "VALORANT Store ",
-    dribbble:
-      "https://dribbble.com/shots/18439007-Valorant-Store?new_shot_upload=true&utm_source=Clipboard_Shot&utm_campaign=Seriousless&utm_content=Valorant%20Store&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Seriousless&utm_content=Valorant%20Store&utm_medium=Social_Share",
-    demo: "https://valorantstore.netlify.app",
-  },
-  {
-    id: 4,
     image: PROJECT4,
     title: "RISE Media ",
     dribbble:
@@ -40,11 +19,40 @@ const data = [
     demo: "https://rise-team.com",
   },
   {
+    id: 2,
+    image: PROJECT6,
+    title: "Sultanacarvan Store ",
+    dribbble: "https://sultanacaravan.netlify.app/",
+    demo: "https://sultanacaravan.netlify.app/",
+  },
+  {
+    id: 3,
+    image: PROJECT7,
+    title: "lofty Sweets Store ",
+    dribbble: "https://loftysweets.com/",
+    demo: "https://loftysweets.com/",
+  },
+  {
     id: 4,
-    image: PROJECT5,
-    title: "Mug Mania Store ",
-    dribbble: "https://mugs-mania.store/",
-    demo: "https://mugs-mania.store/",
+    image: PROJECT8,
+    title: "BreevoosStore ",
+    dribbble: "https://breevos.com/",
+    demo: "https://breevos.com/",
+  },
+  {
+    id: 5,
+    image: PROJECT9,
+    title: "BreevoosStore ",
+    dribbble: "https://topkopi.netlify.app/",
+    demo: "https://topkopi.netlify.app/",
+  },
+  {
+    id: 6,
+    image: PROJECT1,
+    title: "OMNIFOOD",
+    dribbble:
+      "https://dribbble.com/shots/18319780-OMNIFOOD-Website-Design?utm_source=Clipboard_Shot&utm_campaign=Seriousless&utm_content=OMNIFOOD%20Website%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Seriousless&utm_content=OMNIFOOD%20Website%20Design&utm_medium=Social_Share",
+    demo: "https://singular-bonbon-c13d1a.netlify.app",
   },
 ];
 

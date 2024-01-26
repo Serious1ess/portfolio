@@ -53,6 +53,27 @@ function experience() {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experiecne__details-icon" />
+              <div>
+                <h4>Android Studio</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experiecne__details-icon" />
+              <div>
+                <h4>Shopify / Liquid</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experiecne__details-icon" />
+              <div>
+                <h4>Unity Game Development</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* End of FrontEnd */}
@@ -86,7 +107,21 @@ function experience() {
               <BsPatchCheckFill className="experiecne__details-icon" />
               <div>
                 <h4>Node js</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experiecne__details-icon" />
+              <div>
+                <h4>Fire Base</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experiecne__details-icon" />
+              <div>
+                <h4>Data Structure</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
